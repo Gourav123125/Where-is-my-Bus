@@ -30,24 +30,32 @@ A smart public transport platform offering live bus tracking, accurate ETAs, and
 | Styling       | Tailwind CSS / Material UI                      |
 | Deployment    | Netlify (Dashboard), Render (Backend), Play Store (Mobile) |
 
-📂 Project Structure
+## 📂 Project Structure
+
 where-is-my-bus/
-├── frontend/ # Flutter mobile app
-│ ├── lib/
-│ ├── assets/
-│ └── pubspec.yaml
-├── dashboard/ # React.js admin dashboard
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ └── App.jsx
-│ └── tailwind.config.js
-├── backend/ # Express.js backend
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ └── server.js
-├── .env # Environment variables
+├── frontend/               # Flutter mobile app
+│   ├── lib/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── main.dart
+│   └── pubspec.yaml
+│
+├── dashboard/              # React.js admin dashboard
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.jsx
+│   └── tailwind.config.js
+│
+├── backend/                # Express.js backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+│
+├── .env                     # Environment variables
 ├── README.md
 └── package.json
 
@@ -92,10 +100,14 @@ API: http://localhost:5000
 Manual testing has been performed on:
 
 ✅ Chrome, Firefox, Brave browsers
+
 ✅ Android & iOS devices
+
 ✅ Multiple screen sizes via DevTools
+
 ✅ Firebase push notification sandbox
-✅ Google Maps API integration test
+
+✅ Google Maps API integration tests
 
 Automated testing is planned for future releases.
 
@@ -103,17 +115,27 @@ Automated testing is planned for future releases.
 We welcome contributions from GSSoC '25 participants and the open-source community.
 To contribute:
 Fork the repo
+
 Create a new branch (git checkout -b feature-name)
+
 Commit changes (git commit -m 'Add new feature')
+
 Push branch (git push origin feature-name)
+
 Open a Pull Request
 
 📜 License
 This project is licensed under the MIT License.
+
 Feel free to use, modify, and distribute with proper attribution.
+
 🤝 Acknowledgements
+
 Inspired by the need for smart, efficient public transport solutions
+
 Google Maps API for real-time mapping
+
 Firebase Cloud Messaging for instant alerts
+
 Open-source contributors & GSSoC community
 
